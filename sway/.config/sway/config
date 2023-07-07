@@ -211,10 +211,14 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 #
-# caps as esc
+# keyboard
 #
 input * {
     xkb_options caps:escape
+}
+
+input type:keyboard {
+	xkb_layout pl,us
 }
 
 #
